@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        
+        /*
+        # = id 
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children  */
+
+
+
+
+
+
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: red;
+        }
+        
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: black;
+        }
+
+        a::before{
+
+            content: '[clica ai vai]';
+        }
+        a::after {
+            content: '[link]' ;
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(250, 10, 10);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/mateusfugiu" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UC9szQiKIiXpESBa0uchJjyA" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/mateusfugiu/" target="_blank">Meu instagram</a></li>
+    </ul>
+    
+</body>
+</html>
